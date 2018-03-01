@@ -1,4 +1,5 @@
-AM_CXXFLAGS = -I../../
+AM_CXXFLAGS = -I../../../
 
 noinst_LIBRARIES = libpasswdFile.a
-libpasswdFile_a_SOURCES = cygwinGroupFile.cpp cygwinGroupFile.h cygwinPasswdFile.cpp cygwinPasswdFile.h groupFile.h passwdFile.cpp passwdFile.h
+libpasswdFile_a_SOURCES = cygwinGroupFile.cpp cygwinPasswdFile.cpp passwdFile.cpp
+
